@@ -10,7 +10,7 @@
 			<key>Image File</key>
 			<string>flyClipboard.png</string>
 			<key>Regular Expression</key>
-			<string>(?s)^[^\n\r]{1,4000}$</string>
+			<string>*</string>
 			<key>Title</key>
 			<string>MacID</string>
 		</dict>
