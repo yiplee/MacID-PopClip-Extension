@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>AppleScript File</key>
+			<string>MacID.applescript</string>
+			<key>Image File</key>
+			<string>flyClipboard.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^[^\n\r]{1,300}$</string>
+			<key>Title</key>
+			<string>MacID</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.kanecheshire.MacIDOSX</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+                        <string>http://macid.co</string>
+			<key>Name</key>
+			<string>MacID</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Send Selected Text to all iOS Devices Via MacID</string>
+	<key>Extension Identifier</key>
+	<string>com.macid.popclip.extension.macid</string>
+	<key>Extension Name</key>
+	<string>MacID</string>
+</dict>
+</plist>
